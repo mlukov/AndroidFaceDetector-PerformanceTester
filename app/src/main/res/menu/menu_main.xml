@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/modeGroup" android:title="Detect Mode" android:checkableBehavior="single" >
+        <item android:id="@+id/fast" android:title="Fast"></item>
+        <item android:id="@+id/accurate" android:title="Accurate"></item>
+    </group>
+
+
+    <group android:id="@+id/landmarksGoup" android:title="Landmarks" android:checkableBehavior="single">
+        <item android:id="@+id/no_landmarks" android:title="No Landmarks"></item>
+        <item android:id="@+id/all_landmarks" android:title="All Landmarks"></item>
+    </group>
+
+    <group android:id="@+id/classificationsGoup" android:title="Classifications" android:checkableBehavior="single">
+        <item android:id="@+id/no_classifications" android:title="No Classifications"></item>
+        <item android:id="@+id/all_classifications" android:title="All Classifications"></item>
+    </group>
+
+    <group android:id="@+id/thumbSizeGoup" android:title="Thumb Size" android:checkableBehavior="single">
+        <item android:id="@+id/size360" android:title="360 px"></item>
+        <item android:id="@+id/size640" android:title="640 px"></item>
+        <item android:id="@+id/size720" android:title="720 px"></item>
+        <item android:id="@+id/size1080" android:title="1080 px"></item>
+        <item android:id="@+id/size2160" android:title="2160 px"></item>
+    </group>
+</menu>
